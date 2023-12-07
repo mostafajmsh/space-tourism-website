@@ -1,0 +1,156 @@
+body{
+    background-image: url(../assets/technology/background-technology-desktop.jpg);
+}
+
+.btn-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10rem;
+    padding-right: 0;
+}
+
+header{
+    padding-bottom: 4rem;
+}
+
+.btn{
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    background: none;
+    border: 1px solid gray;
+    color: white;
+    font-family: 'Marcellus', serif;
+    font-weight: lighter;
+    transform: scale(1);
+    transition: all .5s;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: none;
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+.active{
+    background-color: white;
+    color: black;
+    border: none;
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+main{
+    padding: 0;
+    padding-bottom: 6rem;
+    padding-top: 1rem;
+    
+}
+
+.d-text {
+    padding-left: 10rem;
+    padding-bottom: 0;
+
+}
+
+.f-text {
+    font-size: 1.5rem;
+
+}
+
+.f-num {
+    font-size: 1.5rem;
+    font-family: 'Antonio', sans-serif;
+    letter-spacing: .3rem;
+    color: rgb(75, 76, 86);
+}
+
+.text{
+    width: 100%;
+    padding: 0 4rem;
+}
+
+.name{
+    font-size: 4rem;
+    padding: 0;
+    font-family: 'Cormorant', serif;
+    padding-bottom: 2rem;
+    text-wrap: nowrap;
+}
+
+.subject {
+    font-size: 1rem;
+    font-family: 'Antonio', sans-serif;
+    letter-spacing: .3rem;
+    font-weight: 550;
+    color: rgb(170, 170, 189);
+}
+
+@media only screen and (max-width:1200px){
+    body{
+        background-image: url(../assets/technology/background-technology-tablet.jpg);
+    }
+
+    .btn-sec{
+        flex-direction: row;
+        padding: 0;
+        padding-top: 2rem;
+    }
+
+    .subject{
+        padding-bottom: 1rem;
+    }
+
+    .d-text{
+        text-align: center;
+        padding-left: 0;
+        padding-bottom: 1rem;
+    }
+
+    .btn-sec{
+        padding-bottom: 2rem;
+    }
+
+    .l-text{
+        padding-bottom: 2rem;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+
+    body{
+        background-image: url(../assets/technology/background-technology-mobile.jpg);
+    }
+    .name{
+        font-size: 3rem;
+    }
+
+    .text{
+        padding: 0;
+    }
+
+    .subject{
+        padding-bottom: 1rem;
+    }
+
+    .l-text{
+        letter-spacing: normal;
+    }
+
+    .img{
+        text-align: center;
+    }
+
+    .main-img{
+        width: 100%;
+    }
+
+    .menu-bar{
+        z-index: 1;
+    }
+}

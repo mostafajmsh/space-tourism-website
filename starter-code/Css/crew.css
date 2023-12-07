@@ -1,0 +1,234 @@
+body {
+    background-image: url(../assets/crew/background-crew-desktop.jpg);
+}
+
+.d-text {
+    padding-left: 10rem;
+    padding-bottom: 0;
+
+}
+
+.f-text {
+    font-size: 1.5rem;
+
+}
+
+.f-num {
+    font-size: 1.5rem;
+    font-family: 'Antonio', sans-serif;
+    letter-spacing: .3rem;
+    color: rgb(75, 76, 86);
+}
+
+.subject {
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-family: 'Cormorant', serif;
+    font-weight: 550;
+    color: rgb(170, 170, 189);
+    padding-top: 8rem;
+}
+
+.name {
+    font-size: 4rem;
+    padding: 0;
+    font-family: 'Cormorant', serif;
+    font-weight: 550;
+    padding-bottom: 2rem;
+}
+
+.description {
+    color: rgb(197, 197, 225);
+    line-height: 1.5rem;
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: .08rem;
+    color: rgb(203, 204, 231);
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5rem;
+}
+
+.text {
+    width: auto;
+}
+
+header {
+    padding-bottom: 4rem;
+}
+
+.img {
+    padding: 0 2rem;
+    transform: scale(1);
+    transition: all .5s;
+}
+
+.img:hover {
+    transform: scale(.99);
+    transition: all .5s;
+}
+
+.main-img {
+    padding: 0;
+    padding-top: 3rem;
+}
+
+main {
+    padding-bottom: 0;
+    align-items: flex-start;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+
+.pers-btn {
+    padding: .4rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-right: 1.2rem;
+    color: gray;
+    background-color: rgb(75, 76, 86);
+
+}
+
+.pers-btn:hover {
+    background-color: white;
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+.active{
+    background-color: white;
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+.change{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+@media only screen and (max-width:1200px){
+
+    body{
+        background-image: url(../assets/crew/background-crew-tablet.jpg);
+    }
+
+    .container{
+        padding-bottom: 0;
+    }
+
+    .d-text{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main{
+        padding: 0;
+    }
+
+    .subject{
+        padding-top: 2rem;
+        font-size: 3rem;
+    }
+
+    .name{
+        font-weight: bolder;
+
+    }
+
+    .description{
+        padding-bottom: 2rem;
+    }
+
+    .text{
+        padding: 0 2rem;
+    }
+
+    .img{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .btns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        padding-bottom: 2rem;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    body{
+        background-image: url(../assets/crew/background-crew-mobile.jpg);
+    }
+    .container {
+        padding-bottom: 0;
+    }
+
+    header{
+        justify-content: space-between;
+        
+    }
+
+    .d-text{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subject{
+        padding-top: 2rem;
+        font-size: 2.5rem;
+    }
+
+    main{
+        padding: 0;
+    }
+
+    .name{
+        font-size: 2.2rem;
+        font-weight: bolder;
+    }
+
+    .text{
+        padding: 0;
+    }
+
+    .description{
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .btns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        padding-bottom: 2rem;
+    }
+
+    .img{
+        width: 100%;
+        padding: 0;
+    }
+
+    .main-img{
+        width: 100%;
+        padding: 0;
+    }
+
+}
